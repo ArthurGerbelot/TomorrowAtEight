@@ -1,0 +1,27 @@
+{
+    "name": "TomorrowAtEight.Tests.PlayMode",
+    "rootNamespace": "TomorrowAtEight.Tests",
+    "references": [
+        "TomorrowAtEight",
+        "Unity.Entities",
+        "Unity.Transforms",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Burst",
+        "UnityEngine.UI",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

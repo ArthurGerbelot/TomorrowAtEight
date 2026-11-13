@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-12",
+  "day": 0,
+  "title": "Project foundation and development launcher",
+  "author": "arthyficiel",
+  "prompt": "Day 1 — Project foundation and development launcher\n\nTurn the existing Unity project into a working foundation for future daily prompts. Implement the shared infrastructure described in the repository’s rules and architecture in its minimum complete form.\n\nOn startup, display a development menu containing:\n\nPlay Game — visible but disabled.\nRun Test Scene 1\nRun Test Scene 2\nRun Test Scene 3\n\nCreate three lightweight test scenes that exercise different parts of the shared foundation. Choose their contents freely, keeping them provisional and leaving the game’s genre, world, and visual direction open.\n\nAll scenes must use the common content registry, stable keys, entity factory, ECS simulation, and bootstrap. Include the documented asset provenance, rights, and replacement metadata.\n\nEvery test scene must provide Restart and Back to Menu. Switching or restarting scenes must clean up their state without leaving duplicate entities, managers, cameras, or UI.\n\nRegister test scenes through a reusable catalog that populates the launcher, allowing future scenes to be added through the same registration path.\n\nConfigure packages, project settings, assets, and scenes through code and repeatable automation. The owner should not need to edit files, assemble scenes, or wire Inspector references manually.\n\nValidate startup, all three scene entries, restarting, and repeated navigation between scenes. Prepare a browser build and complete the daily records and public recap. Report implementation, executed checks, build results, and remaining blockers separately.",
+  "done": [
+    "The game now opens on a launcher menu: Play Game (visible but disabled, since there is no game yet) and Run Test Scene 1, 2, and 3.",
+    "Test Scene 1 shows a group of spinning blocks and gems that share the same shapes and colours.",
+    "Test Scene 2 has an emitter that keeps spawning small objects, which disappear on their own.",
+    "Test Scene 3 lets you move a block by clicking, tapping, or using WASD or the arrow keys.",
+    "Every test scene has Restart and Back to Menu, and a scene is fully cleaned up before the next one starts."
+  ],
+  "details": [
+    "The launcher itself is just another scene, so starting the game, switching scenes, and restarting all go through the same path.",
+    "Adding a future scene to the launcher takes a single registration.",
+    "Everything on screen is built from code out of plain shapes and flat colours; there is no imported art yet.",
+    "Every asset has a record of where it comes from and whether it must be replaced later."
+  ],
+  "suggestions": [
+    "Pick the genre and the core loop: what does the player actually do?",
+    "Choose the world and the visual style, so the placeholder blocks can go.",
+    "Decide what the Play Game button should launch first."
+  ]
+}

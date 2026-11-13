@@ -1,0 +1,42 @@
+# Repository-wide exclusions. Unity-specific rules also live in TomorrowAtEight/.gitignore.
+# Keep source assets and their .meta files.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/Exports/
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Local tool state and home-directory backups.
+/automation/
+/scripts/
+/TomorrowAtEight/Assets/__LocalAutomation/
+/TomorrowAtEight/Assets/__LocalAutomation.meta
+/.aws/
+/.codex/
+/.claude/
+/.devcontainer/
+
+# Dependencies and generated output for the future website.
+node_modules/
+/web/dist/
+/web/build/
+/web/coverage/

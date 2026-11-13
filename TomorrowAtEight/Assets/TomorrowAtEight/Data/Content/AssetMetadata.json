@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "contentKey": "font.core.ui",
+      "providerRevision": "unity-builtin-legacyruntime",
+      "origin": "third_party_dependency",
+      "source": "Unity built-in resource LegacyRuntime.ttf, loaded by name from the Unity player; no font file is stored in this repository.",
+      "author": "Unity Technologies (bundled font; upstream font author not verified)",
+      "ipStatus": "pending",
+      "ipStatusReason": "Third-party font bundled with the Unity Editor and player, loaded by name; no font file is stored in this repository. Current use is permitted as a Unity built-in resource under the Unity Editor terms that already govern this project. The upstream font licence has not been reviewed, so permanent adoption is pending; it is not studio-owned.",
+      "rightsholder": "Unity Technologies and the upstream font licensors",
+      "license": "Unity Editor Software Terms (font upstream licence not verified)",
+      "evidence": [
+        "https://unity.com/legal/editor-terms-of-service/software"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional development UI font; choose and document a project font when the UI direction is adopted.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "shader.core.lit",
+      "providerRevision": "urp-17.3.0-lit",
+      "origin": "third_party_dependency",
+      "source": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader (com.unity.render-pipelines.universal 17.3.0), referenced by GUID; no shader source is copied into Assets.",
+      "author": "Unity Technologies",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Third-party package dependency used unmodified under the Unity Companion License. It is recorded as a dependency, not as studio-owned material.",
+      "rightsholder": "Unity Technologies",
+      "license": "Unity Companion License",
+      "evidence": [
+        "Packages/manifest.json",
+        "https://unity.com/legal/licenses/unity-companion-license"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": false,
+      "replacementReason": "",
+      "replacementTarget": ""
+    },
+    {
+      "contentKey": "mesh.core.cube",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/ProceduralMeshes.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "mesh.core.octahedron",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/ProceduralMeshes.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "mesh.core.plane",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/ProceduralMeshes.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "material.test.amber",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "material.test.teal",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "material.test.rose",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "material.test.slate",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "model.test.block-amber",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "model.test.block-teal",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "model.test.gem",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    },
+    {
+      "contentKey": "model.test.ground",
+      "providerRevision": "procedural-1",
+      "origin": "procedural",
+      "source": "Assets/TomorrowAtEight/Content/TestScenes/TestContent.cs",
+      "author": "Project code (AI coding agent, owner-directed)",
+      "ipStatus": "not_required",
+      "ipStatusReason": "Original procedural placeholder generated at runtime by project code written for this repository on 2026-11-12 (AI coding agent under owner direction). It is a basic geometric primitive or flat colour with no third-party input, so no third-party rights need to be acquired. This is not a claim of exclusive ownership.",
+      "rightsholder": "No third-party rightsholder identified",
+      "license": "Not applicable; covered by the repository like other project code",
+      "evidence": [
+        ".agents/days/2026-11-12.md"
+      ],
+      "allowedScopes": [
+        "private_development",
+        "public_source",
+        "public_build",
+        "public_media"
+      ],
+      "reviewDate": "2026-11-12",
+      "replacementRequired": true,
+      "replacementReason": "Provisional placeholder for test scenes; it adopts no visual direction.",
+      "replacementTarget": "When a selected prompt adopts a visual direction, or when the test scenes are retired."
+    }
+  ]
+}

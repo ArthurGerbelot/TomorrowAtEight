@@ -1,0 +1,6 @@
+<linker>
+  <!-- ARCH-005 | 2026-11-11 | ECS systems and components are discovered by type, not by
+       direct references, so managed code stripping must keep this assembly whole.
+       Journal: .agents/days/2026-11-12.md -->
+  <assembly fullname="TomorrowAtEight" preserve="all" />
+</linker>
